@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.css,
+.angular,
+.html,
+.vue,
+.javascript,
+.node,
+.reactcourse {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  background-color: gray;
+}
+
+.html-logo,
+.react-logo,
+.javascript-logo,
+.vue-logo,
+.css-logo,
+.node-logo,
+.angular-logo {
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  background-color: gray;
+}
+
+.video-title {
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+.description {
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.video-page {
+  display: flex;
+  flex-direction: column;
+}
+
+.video-list {
+  display: flex;
+  justify-content: space-around;
+}
